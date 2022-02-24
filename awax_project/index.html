@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0">
+    <title>Café - Conto Encontro ETC</title>
+    <link rel="shortcut icon" href="assets/media/favpng_coffee-cup-cafe-cappuccino-espresso.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu--mobile").addEventListener("click", function() {
+                if (document.querySelector(".menu nav").style.display == 'flex') {
+                    document.querySelector(".menu nav").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="assets/media/favpng_coffee-cup-cafe-cappuccino-espresso.png" alt="logo__coffee" width="45"></a>
+            </div>
+            <div class="menu">
+                <div class="menu--mobile">
+                    <div class="menu__line"></div>
+                    <div class="menu__line"></div>
+                    <div class="menu__line"></div>
+                </div>
+                <nav>
+                    <div class="menu--bnt">
+                        <ul>
+                            <li class="bnt__active">
+                                <a href="#bn">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#def">Quem sou e o que faço</a>
+                            </li>
+                            <li>
+                                <a href="#ser">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>            
+    </div>
+    <main>
+        <section class="banner" id="bn">
+            <div class="banner--sliders">
+                <div class="banner__slide">
+                    <!--<div class="__slide_area"> 
+                        <h1>Design is about<br><span>Communication</span></h1>
+                        <h2>call us: +55 75 99812 6494</h2>
+                        <a href="https://api.whatsapp.com/send?phone=5575998126494" class="__btn" target="_blank"rel="external">get in touch!</a>
+                    </div> -->
+                </div>
+                <!--<div class="banner__slide">
+                    <div class="__slide_area">
+                        <h1>Design is about<br><span>____________.</span></h1>
+                        <h2>call us: +55 75 99812 6494</h2>
+                        <a href="#" class="__btn" target="_blank"rel="external">get in touch!</a>
+                    </div>
+                </div>
+                <div class="banner__slide">
+                    <div class="__slide_area">
+                        <h1>Design is about<br><span>___________!</span></h1>
+                        <h2>call us: +55 75 99812 6494</h2>
+                        <a href="#" class="__btn" target="_blank"rel="external">get in touch!</a>
+                    </div>
+                </div>-->
+            </div>
+            <!--<div class="banner--pointers">
+                <div class="banner__point active"></div>
+                <div class="banner__point"></div>
+                <div class="banner__point"></div>
+            </div> --> 
+        </section>
+        <section class="default light" id="def">
+            <div class="default--title">Café e atualidades</div>
+            <div class="default--desc">assuntos quentes da semana
+            </div>
+            <div class="default--body">
+               <div class="abt">
+                   <div class="abt--left">
+                       <p>
+                        Depois do queijo com goiabada, conversa com Café é a melhor combinação que existe.
+                       </p>
+                        <br> <br> 
+                       <a href="#" class="__btn">Leia mais</a>
+                   </div>
+                   <div class="abt--right">
+                       <img src="assets/images/Imagem3.png" alt="">
+                   </div>
+               </div>
+            </div>
+        </section>
+        <!--<section class="default dark" id="ser">
+            <div class="default--title">Services</div>
+            <div class="default--desc">services that we provide</div>
+            <div class="default--body">
+                <div class="svc">
+                    <div class="svc__ser">
+                        <img src="assets/images/medalha.png" alt="medal">
+                        <h4>High quality design</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="svc__ser">
+                        <img src="assets/images/estrela.png" alt="star">
+                        <h4>Modern design</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="svc__ser">
+                        <img src="assets/images/relogio.png" alt="clock">
+                        <h4>Regular updates</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="svc__ser">
+                        <img src="assets/images/balao.png" alt="ballon">
+                        <h4>Fast and free support</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>-->
+        <section class="default light" id="op">
+            <div class="default--title">CATEGORIA E PROPÓSITO DESTE PORTAL
+            </div>
+            <div class="default--desc">Encontros virtuais, Network, Serviços, Oportunidades, Consultoria etc.
+            </div>
+            <div class="default--body">
+                <div class="pjt">
+                  <!--  <div class="pjt--filters">
+                        <!--aqui pode-se add links via <a>...</a> em cada <li>...</li> que direciona para uma página específica
+                        <ul> 
+                            <li>all</li>
+                            <li>photos</li>
+                            <li>Branding</li>
+                            <li>adverts</li>
+                            <li>development</li>
+                            <li>misc</li>
+                        </ul>
+                    </div> -->
+                    <div class="pjt--photos">
+                        <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info">
+                                    <h5>Livre e  Feliz</h5>
+                                    <p>Saúde, Bem estar
+                                        <a href="#">Leia mais...</a>
+                                    </p>
+                                </div>        
+                                <img src="assets/images/Imagem4.png">
+                            </div>
+                        </div>
+                        <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info">
+                                    <h5>Vida & Trabalho</h5>
+                                    <p>Encontre seu coach perfeito 
+                                        <a href="#">Leia mais...</a>
+                                    </p>
+                                </div>
+                                <img src="assets/images/Imagem5.png">
+                            </div>
+                        </div>
+                        <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info"><h5>Café</h5>
+                                    <p>Conto, Amigos, Filosofia, É ncontro
+                                    <a href="#">Leia mais...</a>
+                                    </p>
+                                </div>
+                                <img src="assets/images/Imagem6.png">
+                            </div>
+                        </div>
+                       <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info"><h5>Moda & Beleza</h5>
+                                    <p>Cuidados com a Pele. Quando não estamos em harmonia com nosso corpo, tudo fica feio diante do espelho.
+                                        <a href="#">Leia mais...</a>
+                                    </p>    
+                                </div>
+                                <img src="assets/images/Imagem7.png">
+                            </div>
+                        </div>
+                        <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info"><h5>Viagem pelo Brasil e pelo mundo afora. </h5>
+                                    <p>Viajar é algo que você precisa para refazer as energias nem que seja viajar na maionese.
+                                        <a href="#">Leia mais...</a>   
+                                    </p>
+                                </div>
+                                <img src="assets/media/foto5.jpg">
+                            </div>
+                        </div>
+                    <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info"><h5>Amantes de Vinhos & Tour pelas vinícolas do Brasil e do mundo
+                                </h5>
+                                    <p>Me volita, me aira, me sirva  e me prove devagar.
+                                        <a href="https://www.facebook.com/DallasWineLoversClubInternational" target="_blank">Leia mais...</a>
+                                    </p>
+                                </div>
+                                <img src="assets/images/Imagem9.png">
+                            </div>
+                        </div>
+                           <!-- <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info"><h5>About</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <img src="assets/media/foto1.jpg">
+                            </div>
+                        </div>
+                        <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info"><h5>About</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <img src="assets/media/foto2.jpg">
+                            </div>
+                        </div>
+                        <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info"><h5>About</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <img src="assets/media/foto3.jpg">
+                            </div>
+                        </div>
+                        <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info"><h5>About</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <img src="assets/media/foto4.jpg">
+                            </div>
+                        </div>
+                        <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info"><h5>About</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <img src="assets/media/foto5.jpg">
+                            </div>
+                        </div>
+                        <div class="pjt__pht">
+                            <div class="pht__area">
+                                <div class="pht__info"><h5>About</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <img src="assets/media/foto6.jpg">
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#" class="__btn">More projects</a> -->
+                </div>
+            </div>
+        </section>
+        <section class="default dark bg--team" id="ot">
+            <div class="team--area">
+                <div class="default--title">our team</div>
+                <div class="default--desc">Our co-workers</div>
+                <div class="default--body">
+                <div class="team">
+                    <div class="team--sliders" style="margin-left: 0;">
+                        <div class="team__slide">
+                            <div class="slide_area">
+                                <img src="assets/media/mulher1.png" class="slide_area__avatar">
+                                <div class="slide_area__name">Jane Doe</div>
+                                <div class="slide_area__role">Master Mind</div>
+                                <div class="slide_area__social">
+                                    <a href="https://wwww.facebook.com" ><img src="assets/images/facebook.png" alt="facebook_logo"></a>
+                                    <a href="https://twitter.com/"><img src="assets/images/twitter.png" alt="twitter_logo"></a>
+                                    <a href="https://plus.google.com/"><img src="assets/images/googleplus.png" alt="gplus_logo"></a>
+                                    <a href="https://br.linkedin.com"> <img src="assets/images/linkedin.png" alt="linkedin_logo"></a>
+                                    <a href="https://br.pinterest.com/"><img src="assets/images/pinterest.png" alt="pinterest_logo"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__slide">
+                            <div class="slide_area">
+                                <img src="assets/media/homem1.png" class="slide_area__avatar">
+                                <div class="slide_area__name">Mike Shiller</div>
+                                <div class="slide_area__role">Creative Head</div>
+                                <div class="slide_area__social">
+                                    <a href="https://wwww.facebook.com" ><img src="assets/images/facebook.png" alt="facebook_logo"></a>
+                                    <a href="https://twitter.com/"><img src="assets/images/twitter.png" alt="twitter_logo"></a>
+                                    <a href="https://plus.google.com/"><img src="assets/images/googleplus.png" alt="gplus_logo"></a>
+                                    <a href="https://br.linkedin.com"> <img src="assets/images/linkedin.png" alt="linkedin_logo"></a>
+                                    <a href="https://br.pinterest.com/"><img src="assets/images/pinterest.png" alt="pinterest_logo"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__slide">
+                            <div class="slide_area">
+                                <img src="assets/media/mulher2.png" class="slide_area__avatar">
+                                <div class="slide_area__name">Anna Johns</div>
+                                <div class="slide_area__role">Technical lead</div>
+                                <div class="slide_area__social">
+                                    <a href="https://wwww.facebook.com" ><img src="assets/images/facebook.png" alt="facebook_logo"></a>
+                                    <a href="https://twitter.com/"><img src="assets/images/twitter.png" alt="twitter_logo"></a>
+                                    <a href="https://plus.google.com/"><img src="assets/images/googleplus.png" alt="gplus_logo"></a>
+                                    <a href="https://br.linkedin.com"> <img src="assets/images/linkedin.png" alt="linkedin_logo"></a>
+                                    <a href="https://br.pinterest.com/"><img src="assets/images/pinterest.png" alt="pinterest_logo"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__slide">
+                            <div class="slide_area">
+                                <img src="assets/media/mulher2.png" class="slide_area__avatar">
+                                <div class="slide_area__name">Anna Johns</div>
+                                <div class="slide_area__role">Technical lead</div>
+                                <div class="slide_area__social">
+                                    <a href="https://wwww.facebook.com" ><img src="assets/images/facebook.png" alt="facebook_logo"></a>
+                                    <a href="https://twitter.com/"><img src="assets/images/twitter.png" alt="twitter_logo"></a>
+                                    <a href="https://plus.google.com/"><img src="assets/images/googleplus.png" alt="gplus_logo"></a>
+                                    <a href="https://br.linkedin.com"> <img src="assets/images/linkedin.png" alt="linkedin_logo"></a>
+                                    <a href="https://br.pinterest.com/"><img src="assets/images/pinterest.png" alt="pinterest_logo"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team--pointers">
+                        <div class="team__point active"></div>
+                        <div class="team__point"></div>
+                        <div class="team__point"></div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="default light" id="hc">
+            <div class="default--title">Happy Clients</div>
+            <div class="default--desc">client reviews</div>
+            <div class="default--body">
+                <div class="hpc">
+                    <div class="hpc--slides_area">
+                    
+                        <div class="hpc--slides">
+                            <img src="assets/media/homem2.png" class="hpc__avatar">
+                            <div class="slides__name">John Doe</div>
+                            <div class="slides__role">Head of PR Departament</div>
+                            <div class="hpc--dep">
+                                <img class="dep__quote" src="assets/images/quote.png" alt="quote">
+                                <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus reiciendis eum sunt ratione, fuga neque. <br> Error doloremque provident quasi, saepe deleniti magnam sint cumque, laboriosam, <br> deserunt ducimus perferendis in adipisci!
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                                              
+                        <div class="hpc--slides">
+                            <img src="assets/media/homem2.png" class="hpc__avatar">
+                            <div class="slides__name">John Doe</div>
+                            <div class="slides__role">Head of PR Departament</div> 
+                            <div class="hpc--dep">
+                                <img class="dep__quote" src="assets/images/quote.png" alt="quote">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus reiciendis eum sunt ratione, fuga neque. <br> Error doloremque provident quasi, saepe deleniti magnam sint cumque, laboriosam, <br> deserunt ducimus perferendis in adipisci!
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                    
+                            </div>
+                        </div>
+                        
+                        <div class="hpc--slides">
+                            <img src="assets/media/homem2.png" class="hpc__avatar">
+                            <div class="slides__name">John Doe</div>
+                            <div class="slides__role">Head of PR Departament</div> 
+                            <div class="hpc--dep">
+                                <img class="dep__quote" src="assets/images/quote.png" alt="quote">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus reiciendis eum sunt ratione, fuga neque. <br> Error doloremque provident quasi, saepe deleniti magnam sint cumque, laboriosam, <br> deserunt ducimus perferendis in adipisci!
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                    
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="hpc--pointers">
+                        <div class="hpc__point active"></div>
+                        <div class="hpc__point"></div>
+                        <div class="hpc__point"></div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="default white">
+            <div class="partnership">
+                <img src="assets/media/empresa1.png">
+                <img src="assets/media/empresa2.png">
+                <img src="assets/media/empresa3.png">
+                <img src="assets/media/empresa4.png">
+                <img src="assets/media/empresa5.png">
+                <img src="assets/media/empresa6.png">
+            </div>
+        </section>
+        <section class="default light" id="pr">
+            <div class="default--title">Price</div>
+            <div class="default--desc">pricing table</div>
+            <div class="default--body">
+                <div class="prices">
+                    <div class="prices--options">
+                        <h2>EXPRESS</h2>
+                        <h1>$9.99</h1>
+                        <h5>/MONTH</h5>
+                        <ul>
+                            <li>Tracking Issues</li>
+                            <li>--</li>
+                            <li>Add bugs thorough email</li>
+                            <li>--</li>
+                            <li>Notifications</li>
+                            <li>--</li>
+                            <li>Time tracking</li>
+                            <li>--</li>
+                            <li>Custom views</li>
+                            <li>--</li>
+                        </ul>
+                        <a href="#" class="__btn2">chose</a>
+                    </div>
+                    <div class="prices--options">
+                        <h2>STANDART</h2>
+                        <h1>$14.99</h1>
+                        <h5>/MONTH</h5>
+                        <ul>
+                            <li>Tracking Issues</li>
+                            <li>--</li>
+                            <li>Add bugs thorough email</li>
+                            <li>--</li>
+                            <li>Notifications</li>
+                            <li>--</li>
+                            <li>Time tracking</li>
+                            <li>--</li>
+                            <li>Custom views</li>
+                            <li>--</li>
+                        </ul>
+                        <a href="#" class="__btn2">chose</a>
+                    </div>
+                    <div class="prices--options">
+                        <h2>LUXE</h2>
+                        <h1>$19.99</h1>
+                        <h5>/MONTH</h5>
+                        <ul>
+                            <li>Tracking Issues</li>
+                            <li>--</li>
+                            <li>Add bugs thorough email</li>
+                            <li>--</li>
+                            <li>Notifications</li>
+                            <li>--</li>
+                            <li>Time tracking</li>
+                            <li>--</li>
+                            <li>Custom views</li>
+                            <li>--</li>
+                        </ul>
+                        <a href="#" class="__btn2">chose</a>
+                    </div>
+                    <div class="prices--options">
+                        <h2>PREMIUM</h2>
+                        <h1>$24.99</h1>
+                        <h5>/MONTH</h5>
+                        <ul>
+                            <li>Tracking Issues</li>
+                            <li>--</li>
+                            <li>Add bugs thorough email</li>
+                            <li>--</li>
+                            <li>Notifications</li>
+                            <li>--</li>
+                            <li>Time tracking</li>
+                            <li>--</li>
+                            <li>Custom views</li>
+                            <li>--</li>
+                        </ul>
+                        <a href="#" class="__btn">chose</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="default white">
+            <div class="default--title">PREMIUM</div>
+            <div class="default--desc">Even More Features Available</div>
+            <div class="default--body">
+                <div class="premium">
+                    <div class="premium--options">
+                        <div class="premium__img">
+                            <img src="assets/media/livros.png">
+                        </div>
+                        <ul class="premium--features">
+                            <li class="premium__feat">
+                                <div class="premium__title">
+                                    <img src="assets/images/check.png">First Feature
+                                </div> 
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                <ul>
+                                    <li>--FEATURE ONE</li>
+                                    <li>--FEATURE TWO</li>
+                                    <li>--FEATURE THREE</li>
+                                </ul>
+                            </li>
+                            <li class="premium__feat">
+                                <div class="premium__title">
+                                    <img src="assets/images/check.png">
+                                    Second Feature 
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </li>
+                            <li class="premium__feat">
+                                <div class="premium__title">
+                                    <img src="assets/images/check.png">
+                                    Third Feature    
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                <a href="#" class="__btn">get in touch</a>
+                            </li>
+                        </ul>
+                        
+                    </div> 
+                    <!-- RESOLVER O PROBLEMA DAS TELAS DE SLIDES(REVER AULAS SOBRE OS SLIDES)
+                    <div class="premium--options">
+                        <div class="premium__img">
+                            <img src="assets/media/livros.png">
+                        </div>
+                        <ul class="premium--features">
+                            <li class="premium__feat">
+                                <div class="premium__title">
+                                    <img src="assets/images/check.png">
+                                    <h4>First Feature</h4>
+                                </div> 
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                <ul>
+                                    <li>--FEATURE ONE</li>
+                                    <li>--FEATURE TWO</li>
+                                    <li>--FEATURE THREE</li>
+                                </ul>
+                            </li>
+                            <li class="premium__feat">
+                                <div class="premium__title">
+                                    <img src="assets/images/check.png">
+                                    <h4>Second Feature</h4> 
+                                </div>
+                                    
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </li>
+                            <li class="premium__feat">
+                                <div class="premium__title">
+                                    <img src="assets/images/check.png">
+                                    <h4>Third Feature</h4>    
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="premium--options">
+                        <div class="premium__img">
+                            <img src="assets/media/livros.png">
+                        </div>
+                        <ul class="premium--features">
+                            <li class="premium__feat">
+                                <div class="premium__title">
+                                    <img src="assets/images/check.png">
+                                    <h4>First Feature</h4>
+                                </div> 
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                <ul>
+                                    <li>--FEATURE ONE</li>
+                                    <li>--FEATURE TWO</li>
+                                    <li>--FEATURE THREE</li>
+                                </ul>
+                            </li>
+                            <li class="premium__feat">
+                                <div class="premium__title">
+                                    <img src="assets/images/check.png">
+                                    <h4>Second Feature</h4> 
+                                </div>
+                                    
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </li>
+                            <li class="premium__feat">
+                                <div class="premium__title">
+                                    <img src="assets/images/check.png">
+                                    <h4>Third Feature</h4>    
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </li>
+                        </ul> -->
+                        </div>
+                            <div class="prm--pointers">
+                            <div class="prm__point active"></div>
+                            <div class="prm__point"></div>
+                            <div class="prm__point"></div>
+                        </div>
+                    </div>     
+                   
+                </div>
+            </div>        
+        </section>        
+        <section class="default dark" id="sf">
+            <div class="default--title">Some Facts</div>
+            <div class="default--desc">descrição da section</div>
+            <div class="default--body">
+                <div class="smfc">
+                    <div class="smfc__work">
+                        <h1>1000</h1>
+                        <h4>Design Projects</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="smfc__work">
+                        <h1>900</h1>
+                        <h4>photos</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="smfc__work">
+                        <h1>500</h1>
+                        <h4>Marketing Ideas</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="smfc__work">
+                        <h1>100</h1>
+                        <h4>Exhibitions</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="default white">
+            <div class="tell">
+                <img src="assets/images/25702.png">
+                <img src="assets/images/1365px-Facebook_f_logo_(2019).png">
+                <img src="assets/images/twitter2.png">
+                <img src="assets/images/pint.png">
+                <img src="assets/images/linkedIn_PNG38.png">
+                <img src="assets/images/whatsapp-logo-png-hd-2.png">
+                
+            </div>
+        </section>
+        <section class="default light" id="ctus">
+            <div class="default--title">Contact Us</div>
+            <div class="default--desc">Our Agency located in Bahia, Brazil</div>
+            <div class="default--body">
+                <div class="contact">
+                    <form action="post" class="contact--form">
+                        <input type="text" placeholder="NAME" class="contact__name">
+                        <input type="email" placeholder="EMAIL" class="contact__email"><br>
+                        <input type="text" placeholder="SUBJECT" class="contact__sub" ><br>
+                        <textarea cols="30" rows="5" wrap="hard" placeholder="MESSAGE" class="contact__msg"></textarea><br>
+                       
+                    </form>
+                    <a href="#" class="__btn">SEND MESSAGE</a>
+                </div>
+            </div>
+        </section>
+        <section class="map">
+            <div class="map--area">
+                <div class="map__info">
+                    <div class="info__address">
+                        <div class="address--item">
+                            <div class="item__img">
+                                <img src="assets/images/carta.png" class="icon">
+                            </div>
+                            Caixa Postal 00 - CEP 99999-999
+                        </div>
+                        <div class="address--item">
+                            <div class="item__img">
+                                <img src="assets/images/localizacao.png" class="icon">
+                            </div>
+                            Av. Imperador Pedro II - Imperial City
+                        </div>
+                        <div class="address--item">
+                            <div class="item__img">
+                                <img src="assets/images/telefone.png" class="icon">
+                            </div>
+                            +55 75 9 9812-6494
+                        </div>
+                        <div class="address--item">
+                            <div class="item__img">
+                                <img src="assets/images/arroba.png" class="icon">
+                            </div>
+                            eprojectone@gmail.com
+                        </div>
+                        <div class="address--item">
+                            <div class="item__img">
+                                <img src="assets/images/web.png" class="icon">
+                            </div>
+                            https://www.cafedev.com.br
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    </main>
+    <footer class="default dark">
+        <div class="footer--area">
+            <div class="area__box">
+                <div class="box--item1">
+                    <div class="item__img"><a href="https://wwww.facebook.com" ><img src="assets/images/facebook.png" alt="facebook_logo"></a></div>
+                    <div class="item__img"><a href="https://twitter.com/"><img src="assets/images/twitter.png" alt="twitter_logo"></a></div>
+                    <div class="item__img"><a href="https://plus.google.com/"><img src="assets/images/googleplus.png" alt="gplus_logo"></a></div>
+                    <div class="item__img"><a href="https://br.linkedin.com"> <img src="assets/images/linkedin.png" alt="linkedin_logo"></a></div>
+                    <div class="item__img"><a href="https://br.pinterest.com/"><img src="assets/images/pinterest.png" alt="pinterest_logo"></a></div>
+                </div>
+                <div class="box--item2">
+                    eproject#1 &copy; 2021.
+                </div>
+            </div>
+            <div class="area__box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis non culpa veniam libero soluta qui quaerat recusandae debitis! Similique at ipsum nihil nesciunt officia necessitatibus cumque blanditiis quaerat? Mollitia, veritatis.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="area__box">
+                <form action="post">
+                    <input type="email" placeholder="e-mail">
+                </form>
+
+                <a href="#" class="__btn">subscribe</a>
+
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
+
