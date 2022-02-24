@@ -1,4 +1,4 @@
 # Workspace
  many exercices
 
- Repositório de exercícios e projetos.
+ Repositório de exercícios e projetos HTML/CSS/Js.

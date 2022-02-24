@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCenter</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/template.css">
+    <link rel="shortcut icon" href="assets/images/favicon_io(5)/favicon.ico" type="image/x-icon">
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu_mobile").addEventListener("click", function() {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active">
+                            <a href="#">Início</a>
+                        </li>
+                        <li>
+                            <a href="#">Sobre nós</a>
+                        </li>
+                        <li>
+                            <a href="#">Clínicas</a>
+                        </li>
+                        <li>
+                            <a href="#">Equipe</a>
+                        </li>
+                        <li>
+                            <a href="#">Contatos</a>
+                        </li>
+                        <li>
+                            <a href="#">Convênios</a>
+                        </li>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Não está se sentindo bem?</h1>
+                <h2>A MediCenter está pronta para lhe atender em suas enfermidades! Não deixe pra depois, com saúde não se brinca.</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergência</div>
+                    <div class="banner_desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis deserunt amet minus eligendi earum. Dignissimos aperiam reprehenderit rerum nobis obcaecati eos ex, eius facilis ducimus perspiciatis, veniam sit quas fugiat.</div>
+                    <a href="#">Leia mais</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Conversa Médica</div>
+                    <div class="banner_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos animi nobis reprehenderit ex labore, porro corrupti reiciendis, nesciunt ullam, consequuntur tempore possimus sequi repellat delectus iste similique eum sapiente? Corrupti.</div>
+                    <a href="#">Leia mais</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Horários de Atendimento</div>
+                    <div class="banner_hours">Seg.-Sex. 07:00 - 19:00</div>
+                    <div class="banner_hours">Sábado 07:00 - 13:00</div>
+                    <div class="banner_hours">Domingo 09:00 - 12:00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="general">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Notícias</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                </div>
+                <div class="widget_body flex">
+                    <article>
+                        <div class="news_data">
+                            <div class="news_posted_at">8 mar 21</div>
+                            <div class="news_comments">2</div>
+                        </div>
+                        <a href="https://pebmed.com.br/mulheres-lideram-pesquisas-sobre-vacinas-contra-covid-19/" target="_blank" rel="external">
+                            <div class="news_thumbnail">
+                                <img src="assets/images/dia_mulheres_vacina-contra-covid-19.jpg" alt="mulher_cientista">
+                            </div>
+                            <div class="news_title">
+                                Mulheres lideram pesquisas sobre vacinas contra Covid-19
+                            </div>
+                            <div class="news_resume">
+                                É um fato emocionante que a história das vacinas esteja sendo protagonizada por mulheres cientistas. Sabemos no início que esse era um campo dominado por homens. Mas agora a ciência também conta com talentos femininos, que trazem resultados espetaculares
+                                na área das vacinas contra Covid-19.
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <div class="news_data">
+                            <div class="news_posted_at">8 mar 21</div>
+                            <div class="news_comments">2</div>
+                        </div>
+                        <a href="https://blogpilates.com.br/20-excelentes-exercicios-para-dor-lombar/" target="_blank" rel="external">
+                            <div class="news_thumbnail">
+                                <img src="assets/images/exercícios-para-dor-lombar.png" alt="homem_com_dor_lombar">
+                            </div>
+                            <div class="news_title">
+                                20 Excelentes exercícios para Dor Lombar
+                            </div>
+                            <div class="news_resume">
+                                Como está sua dor lombar? E a sua postura nesse exato momento? E sua respiração? Existem tensões ou desconfortos musculares? Se identificou de alguma forma com a imagem acima? Se você precisa saber como combater a dor lombar, então acredito que esse texto
+                                é para você!
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <div class="news_data">
+                            <div class="news_posted_at">5 mar 21</div>
+                            <div class="news_comments">20</div>
+                        </div>
+                        <a href="https://pebmed.com.br/como-tratar-a-doenca-coronariana-estavel-apos-resultados-do-estudo-ischemia/" target="_blank" rel="external">
+                            <div class="news_thumbnail">
+                                <img src="assets/images/isquemia.jpg" alt="grafico">
+                            </div>
+                            <div class="news_title">
+                                Como tratar a doença coronariana estável após resultados do estudo ISCHEMIA?
+                            </div>
+                            <div class="news_resume">
+                                O estudo ISCHEMIA comparou uma estratégia invasiva inicial com uma estratégia conservadora entre pacientes com doença arterial coronariana (DAC) estável e isquemia miocárdica moderada ou grave. O estudo avaliou 5.179 pacientes randomizados em 320 centros
+                                em 37 países.
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <div class="news_data">
+                            <div class="news_posted_at">5 mar 21</div>
+                            <div class="news_comments">123</div>
+                        </div>
+                        <a href="https://pebmed.com.br/uso-de-anticorpos-monoclonais-em-pacientes-de-covid-19-e-autorizado-nos-eua/" target="_blank" rel="external">
+                            <div class="news_thumbnail">
+                                <img src="assets/images/anticorpos-monoclonais.jpg" alt="anticorpos-monoclonais">
+                            </div>
+                            <div class="news_title">
+                                Uso de anticorpos monoclonais em pacientes de Covid-19 é autorizado nos EUA
+                            </div>
+                            <div class="news_resume">
+                                A Food and Drug Administration (FDA), agência regulatória americana, autorizou o uso emergencial de um tratamento com um combinado de anticorpos monoclonais para pacientes leves ou moderados de Covid-19 com risco de evoluir para estado grave.
+                            </div>
+                        </a>
+                    </article>
+                </div>
+
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departamentos</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                </div>
+                <div class="widget_body">
+                    <div class="widget_body_dep" id="ped">
+                        <a href="#">Pediatria</a>
+                    </div>
+                    <div class="widget_body_dep" id="ob">
+                        <a href="#">Obstetrícia</a>
+                    </div>
+                    <div class="widget_body_dep" id="cg">
+                        <a href="#">Clínica Geral</a>
+                    </div>
+                    <div class="widget_body_dep" id="car">
+                        <a href="#">Cardiologia</a>
+                    </div>
+                    <div class="widget_body_dep" id="tra">
+                        <a href="#">Traumatologia</a>
+                    </div>
+                    <div class="widget_body_dep" id="oto">
+                        <a href="#">Otorrino</a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Marque sua consulta</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_consult">
+                        <div class="widget_consult_p">
+                            <p>Veja as várias formas de marcar sua consulta em uma de nossas clínicas: </p>
+                        </div>
+                        <div class="widget_consult_mark">
+                            <div class="widget_consult_contacts">
+                                <img src="assets/images/telefone.png" width="18px"> +55 75 99999-1234
+                            </div>
+                            <div class="widget_consult_contacts">
+                                <img src="assets/images/email.png " width="18px"> consulta@medicenter.com.br
+                            </div>
+                            <div class="widget_consult_contacts">
+                                <img src="assets/images/globo.png" width="18px">
+                                <a href="#"> Consulta on-line</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="container flexcolumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <a href="#">
+                        <div class="banner_title">Orientações para Exames</div>
+                        <div class="banner_desc">Siga as instruções de seu médico para poder realizar seu exame da maneira correta</div>
+                    </a>
+                </div>
+                <div class="fm_2">
+                    <a href="#">
+                        <div class="banner_title">Resultados de Exames</div>
+                        <div class="banner_desc">Acesse aqui os resultados dos Exames Clínicos</div>
+                    </a>
+                </div>
+                <div class="fm_3">
+                    <a href="#">
+                        <div class="banner_title">Resultados Laboratoriais</div>
+                        <div class="banner_desc">Acesse aqui os resultados dos exames laboratoriais</div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Clínica MediCenter</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="banner_desc">
+                                <adress>Av. Império Brasileiro, 1822 - Centro - Princesa Isabel - PB Tel.: +55(99) 12345-1234</adress> <br>
+                                <adress>Av. D. Pedro II, 1840 - Centro - Petrópolis - RJ Tel.: +55(99) 12345-1234</adress> <br>
+                                <adress>Av. D. Pedro I, 1822 - Centro - Leopoldina -BA Tel.: +55(99) 12345-1234</adress>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Redes Sociais</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body_redes">
+                                <div class="redes">
+                                    <a href="https://www.facebook.com/izaiasherculano" target="_blank" rel="external">
+                                        <img src="assets/images/facelogo2.png" alt="logo_fb">
+                                    </a>
+                                </div>
+                                <div class="redes">
+                                    <a href="https://www.instagram.com/izaiasherculano" target="_blank" rel="external">
+                                        <img src="assets/images/instalogo2.png" alt="logo_ig">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">...</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            000
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                Todos os direitosreservados - eproject1 &copy;
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
